@@ -1,0 +1,225 @@
+\documentclass{article}
+\usepackage[a4paper,bottom = 0.6in,left = 0.75in,right = 0.75in,top = 0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{titlesec}
+\usepackage[colorlinks=false]{hyperref}
+
+\newcommand{\xfilll}[2][1ex]{
+\dimen0=#2\advance\dimen0 by #1
+\leaders\hrule height \dimen0 depth -#1\hfill}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}
+\renewcommand\labelitemi{\raisebox{0.4ex}{\tiny$\bullet$}}
+\renewcommand{\labelitemii}{$\cdot$}
+\pagenumbering{gobble}
+\begin{document}
+\vspace*{87 pt}
+% \begin{tabular}{p{2cm} p{19cm}}
+% Webpage & \url{http://www.cse.iitb.ac.in/~mittal}\\
+% Email & anujmittal0801@gmail.com\\
+% Contact & +919004513500\\
+% \end{tabular}
+\hspace{-15 pt} 
+Pursuing {\bf Honours} in Computer Science and {\bf Minor} in Humanities and Social Sciences\\
+\vspace*{-20 pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Intern%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{{\LARGE Internships }\xfilll[0pt]{0.5pt}}
+\vspace{-4pt}
+\textbf{Game Engine Development - Ubisoft } \hfill{\sl \small May-June 2017}
+  \vspace{1pt}\\
+  % { {Ubisoft} }\hfill{\sl \small Pune}\\
+  \vspace{-17pt}
+  \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+      % \item Designed 2D Game engine from scratch in C++11 consisting of Rendering \& Physics Engine and State Manager 
+      \item Developed Rendering Engine using \textbf{DirectX} besides HLSL for shaders providing more graphical elements 
+      \item Optimised Physics Engine using Rvalue, Quadtrees for collision detection, and other inspirations from Box2D
+      \item Implemented ideas from different Design Patterns like Factory, Singleton to create game with Haaf game engine
+  \end{itemize}
+\textbf{Research Intern - Wellthy Therapeutics } \hfill{\sl \small December 2016}
+  \vspace{1pt}\\
+  % { {Wellthy Therapeutics} }\hfill{\sl \small Mumbai}\\
+  \vspace{-17pt}
+  \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+      \item Engineered a raw chat system based on the \textbf{MQTT} protocol using \emph{Mosquitto} as a MQTT broker
+      % \item Analysed its efficency against traditional protocol based chat application provided by various companies 
+      \item Implemented User-Agent assignment system with Amazon's \textbf{Dynamodb} database and other web services
+  \end{itemize}
+\vspace{-10pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{\LARGE Course Projects\xfilll[0pt]{0.5pt}}
+\vspace{-4pt}
+\textbf{Aarohi - Music Generating bot} \hfill{\sl \small Spring 2017}
+  \vspace{1pt}\\
+  % {\it Guide: Prof. Ganesh Ramakrishnan}\hfill{\sl \small IIT Bombay}\\
+  \vspace{-17pt}
+    \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+      \item Trained models using \textbf{Keras} to synthesize music using RNN with LSTM Cells to track long term patterns
+      % \item Dataset were MIDI files of Bach Chorales converted to Piano-Roll, a more structured and intutive format
+      \item Analysed the melody using mathematical models like Chromograph, Tempograph, and Recurrence Matrix
+    \end{itemize}
+\textbf{Echo - Messaging Application} \hfill{\sl \small Spring 2017}
+  \vspace{1pt}\\
+  % {\it Guide: Prof. Varsha Apte}\hfill{\sl \small IIT Bombay}\\
+  \vspace{-17pt}
+    \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+      \item Designed a C++ chat application with socket programming and multithreading on Linux using only shell 
+      % \item Features such as Online-Offline user, MultiUser Login, Last seen, and History of all conversations
+      \item User interface was completely terminal based handled by \textbf{Ncurses} with different themes to choose from
+    \end{itemize}
+\textbf{ATM Controller - VHDL} \hfill{\sl \small Spring 2017}
+  \vspace{1pt}\\
+  % {\it Guide: Prof. Supratik Chakraborty}\hfill{\sl \small IIT Bombay}\\
+  \vspace{-17pt}
+    \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+      % \item Engineered a ATM Controller for FPGA board, capable to withdraw and deposit cash connected to server
+      \item Server maintained Account balances and imposed restriction on cash dispensed over TEA encrypted channel 
+      \item Implemented \textbf{Least Recent Used} caching algorithm for transactions when contact with server fails
+    \end{itemize}
+\textbf{Feed'er - Time Table App} \hfill{\sl \small Autumn 2016}
+  \vspace{1pt}\\
+  % {\it Guide: Prof. Sharat Chandran}\hfill{\sl \small IIT Bombay}\\
+  \vspace{-17pt}
+    \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+      \item Developed an andriod application to notifiy students for upcoming projects and assignment deadlines
+      \item Implemented a platform for professors to collect realtime feedback from students regarding course
+      % \item Included a forum for instructor to update assignments, projects, quiz schedules using Django 
+    \end{itemize}
+\vspace{-10pt}
+
+% \textbf{Checkers} \hfill{\sl \small Autumn 2015}
+%   \vspace{1pt}\\
+%   {\it Guide: Prof. Varsha Apte}\hfill{\sl \small IIT Bombay}\\
+%   \vspace{-17pt}
+%     \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+%       \item Built Checkers game using \emph{simplecpp} library for graphical interface in {\bf C++}
+%       \item Included Two-player and Single-player mode with an AI implemented using \emph{first level depth} search
+%       \item Displayed Validity of moves, and suggested all possible moves
+%     \end{itemize}
+
+% \newpage
+% \vspace{ 50pt}
+% \hspace{-17 pt}
+% \textbf{Breakout Game} \hfill{\sl \small Autumn 2016}
+%   \vspace{1pt}\\
+%   {\it Guide: Prof. Sharat Chandran}\hfill{\sl \small IIT Bombay}\\
+%   \vspace{-17pt}
+%     \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+%       \item Modified version of the famous \emph{Breakout game}, consisting of attractive/repulsive magnets
+%       \item Designed it in C++ using {\bf Box2D}, a Physics Simulation Engine
+%       \item Implemented dynamic memory allocation for improving runtime efficiency
+%     \end{itemize}
+% \textbf{Movie Recomendation Engine} \hfill{\sl \small Autumn 2016}
+%   \vspace{1pt}\\
+%   {\it Guide: Prof. Sharat Chandran}\hfill{\sl \small IIT Bombay}\\
+%   \vspace{-17pt}
+%     \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+%       \item Developed a movie recommendation engine in {\bf Python} using collaborative filtering technique
+%       \item Primarily using \emph{Euclidian distance} and \emph{Pearson Correlation} to find the most relevant movies
+%       \item Based on the input preferences of user, pool of movies and your ratings, movies are recommended to users 
+%     \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  SCHOLASTIC ACHIEVEMENTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{{\LARGE Scholastic Achievements}\xfilll[0pt]{0.5pt}}
+\vspace{-4pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item Secured {\bf All India Rank 599} in JEE Advanced amongst 150,000 candidates \hfill {\sl \small 2015}
+    
+    \item Recipient of the Kishore Vaigyanik Protsahan Yojana Scholarship with \textbf{All India Rank 88}  \hfill \emph{\sl \small 2013}
+
+    \item Achieved {\bf 99.99} percentile in JEE Main out of 1.4 million candidates \hfill {\sl \small 2015}
+        
+    \item Succesfully cleared \textbf{Indian National Mathematics Olympiad} twice \hfill {\sl \small 2012, 2013}
+
+    \item Awarded National Talent Search Examination Scholarship being among \textbf{top 1000} all over India \hfill {\sl \small 2012}
+
+    % \item Participated in National Science \textbf{VIJYOSHI} camp organized by KVPY \hfill {\sl \small 2014}
+
+\end{itemize}
+\vspace{-10pt}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Interest%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+% \section*{{\LARGE Interests}\xfilll[0pt]{0.5pt}}
+% \vspace{-4pt}
+% Network Security, Data Structures and Algorithms, Software Development, Machine learning, Cryptography, Graph Theory
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{\LARGE Self Projects\xfilll[0pt]{0.5pt}}
+\vspace{-4pt}
+\textbf{FirstPersonShooting Game} \hfill{\sl \small Summer 2016}\\
+  \vspace{-17pt}
+    \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+      \item Developed multiplayer game inspired by CounterStrike with {\bf Unity5} game engine and {\bf C\#} scripting language 
+      \item Introduced animations for headbob, crouch, jump, reload-recoil and for power ups like speed, damage boost
+    \end{itemize}
+\textbf{Movie Recomendation Engine} \hfill{\sl \small Autumn 2016}
+  \vspace{-17pt}\\
+    \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+       \item Developed a movie recommendation engine in {\bf Python} using collaborative filtering technique
+       \item Primarily using \textbf{Euclidian distance} and \textbf{Pearson Correlation} to find the most relevant movies
+      % \item Based on the input preferences of user, pool of movies and your ratings, movies are recommended to users 
+    \end{itemize}
+% \textbf{Line Follower} \hfill{\sl \small Spring 2016}
+%   \vspace{-17pt}\\
+%     \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+%       \item Bot with Differential Steering, IR sensors for detecting orientation, and AVR  microcontroller for Path correction
+%       \item Secured {\bf Second Position} in the competition conducted by Robotics Club, IIT Bombay
+%     \end{itemize}
+% \textbf{Tanks} \hfill{\sl \small Autumn 2016}
+%   \vspace{-4pt}
+%     \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+%       \item 3D replication of famous game Tank in Unity each player has a tank that can fire shell any direction it wants
+%       \item Shell explosion imitation and third person dynamic camera that auto-resizes to include both players in screen
+%     \end{itemize}
+% \textbf{Others} 
+%   \vspace{-4pt}
+%     \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+%       \item 3D replication of famous game Tank in Unity each player has a tank that can fire shell any direction it wants
+%       \item {\bf Bluetooth Control Bot}: A bot controlled by app via bluetooth module, with 12V battery and 4-wheel drive
+%       \item  Modified version of the famous \emph{Breakout game}, consisting of attractive/repulsive magnets using Box2D
+%     \end{itemize}
+\vspace{-10pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  TECHNICAL SKILLS   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{\LARGE Technical Skills\xfilll[0pt]{0.5pt}}
+\vspace{-4pt}
+\begin{tabular}{p{4.5cm} p{13.5cm}}
+    \textbf{Programming} &C, C++, Java, Python, Bash, SQL, HLSL, C\#, R ,VHDL\\ \\
+    \textbf{Development} &JavaScript, Django, Spring Framework, HTML5, CSS \\ \\ 
+    \textbf{Softwares} &Git, Unity3D,  UnrealEngine, Andriod Studio, DirectX, OpenGL,\\ &\LaTeX, Makefiles, Wireshark, AutoCAD \& Solidwork \\
+\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  KEY COURSES UNDERTAKEN   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section*{\LARGE Key Courses \xfilll[0pt]{0.5pt}}
+% \vspace{-4pt}
+% \hspace{-8pt}
+%   \begin{tabular}{p{30mm} p{14cm}}
+%   	\textbf{Theoretical CS} & Data Structures and Algorithms, Discrete Structures, Data Analysis and Interpretation,\\ & Design and Analysis of Algorithms, Digital Logic Design, Logic for Computer Science,\\ & Computer Networks, Introduction to Machine Learning, Computer Graphics \\
+%     \vspace{0.5 mm}\textbf{Systems} & \vspace{0.5 mm} Software System, Database, Operating Systems, Network Security, Computer Architecture \\
+%   	\vspace{0.5 mm}\textbf{Mathematics} & \vspace{0.5 mm}Calculus, Linear Algebra, Differential Equations \\
+%   \end{tabular}
+%   \vspace{-3pt}\\
+%   % \hspace*{120mm}{\sl *{\it to be completed by November 2016}}
+%   % \hspace*{120mm}{\sl **{\it to be completed by April 2017}}
+% \vspace{-5pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  EXTRACURRICULARS   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section*{\LARGE Extracurriculars\xfilll[0pt]{0.5pt}}
+% \vspace{-4pt}
+% \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+%   \item Completed course to learn Elementary German (\emph{Deutsch}) 
+%   \item Participated in Microsoft's \textbf{Code.Fun.Do} boot camp with a game built using Unity5
+%   \item Designed a responsive website using Materialize templates and HTML5 with on the fly form validation 
+%   \item Engineered an aeromodel with pusher configuration for RC plane competition
+%   \item Swam \textbf{20.4 km} in 12hrs in the Swimmathon 2016 conducted by IITB Aquatics Club 
+%   % \item Partcipated in Waterpolo GC, SwimmingGC and all other events conducted by IITB Aquatics Club
+%   \item Instructed and performed at Institute Salsa Night, 2016 with an audience of 1000+ people
+%   \item Showcased dance performances in the Annual InSync Dance Show, 2017 in front of 3000+ audience
+% \end{itemize}
+
+\end{document}\grid
+\grid
+\grid
+\grid
+\grid
+\grid
