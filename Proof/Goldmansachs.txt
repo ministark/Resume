@@ -1,0 +1,7 @@
+Designed infrastructure that reconciles 3 risk engines for over 10 risk measures; flagging inconsistent risk values
+
+Implemented book level service which computes risk using risk engine OGRE, scheduled daily for all portfolios
+
+Identified and resolved issues in Credit Risk Framework reducing inconsistency below 1% for flagged tradables
+
+Designed utilites to get summary report of all the process running overnight; manage old containers in database
