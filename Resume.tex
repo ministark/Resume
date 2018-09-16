@@ -8,6 +8,7 @@
 \usepackage{titlesec}
 \usepackage[colorlinks=false]{hyperref}
 \usepackage{comment}
+\usepackage{graphicx}
 
 \newcommand{\xfilll}[2][1ex]{
 \dimen0=#2\advance\dimen0 by #1
@@ -17,15 +18,44 @@
 \renewcommand{\labelitemii}{$\cdot$}
 \pagenumbering{gobble}
 \begin{document}
-\vspace*{120 pt}
+% \vspace*{0 pt}
+\noindent
+\begin{minipage}{0.6\textwidth}
+  \Large{Sourabh Singh} \\ \\
+  \normalsize
+  \begin{tabular}{p{7cm} p{30cm}}
+  Computer Science and Engineering & B.Tech. \\
+  Indian Institute of Technology, Bombay &  Male\\
+  % Github & {https://github.com/ministark}\\
+  Email: sourabhrishi25@gmail.com & DOB: 25/05/98 \\
+  Contact: +919869815517 \\
+  \end{tabular}
+  % Department Computer Science and Engineering, IIT Bombay
+\end{minipage}
+\hfill 
+\begin{minipage}{0.3\textwidth}\raggedleft
+\includegraphics[width=0.5\linewidth]{./photo.jpg}
+\end{minipage}
+
+% \begin{figure}
+%   \includegraphics[width=\linewidth]{../../Pictures/Rick&Morty.jpg}
+%   \caption{A boat.}
+%   \label{fig:boat1}
+% \end{figure}
+
+% \noindent{ \large
 % \begin{tabular}{p{2cm} p{19cm}}
-% Webpage & \url{http://www.cse.iitb.ac.in/~mittal}\\
-% Email & anujmittal0801@gmail.com\\
-% Contact & +919004513500\\
+% Name & Sourabh Singh\\
+% Github & {https://github.com/ministark}\\
+% Email & sourabhrishi25@gmail.com\\
+% Contact & +919869815517\\
 % \end{tabular}
-\hspace {-15 pt} 
-Pursuing {\bf Honours} degree in Department Computer Science and Engineering\\
-\vspace*{-20 pt}
+% }
+% \vspace*{20 pt}
+
+% \hspace {-15 pt} 
+% Pursuing {\bf BTech} and {\bf Honours} degrees in Department Computer Science and Engineering\\
+% \vspace*{-20 pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Intern%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{{\LARGE Internships }\xfilll[0pt]{0.5pt}}
 \vspace{-4pt}
@@ -67,7 +97,7 @@ Pursuing {\bf Honours} degree in Department Computer Science and Engineering\\
   \vspace{-17pt}
     \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
       \item Implemented bitonic sort in cuda and compared its speed with a 64 core distributed OpenMPI implementation 
-      \item Analysed its efficiency for input sizes upto one billion acheiving 1.6 times greater speedup than distributed
+      \item Analysed its efficiency for input sizes upto one billion achieving 1.6 times greater speedup than distributed
       \item Evaluated sequential version of Bitonic Sort algorithm against Quicksort and Introsort (STL Library uses it)
     \end{itemize}
 \textbf{Aarohi - Music Generating bot} \hfill{\sl \small Spring 2017}
